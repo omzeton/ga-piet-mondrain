@@ -6,7 +6,7 @@ module.exports = {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        secondary: resolve(__dirname, "mondrain/index.html"),
+        generator: resolve(__dirname, "generator/index.html"),
       },
     },
   },
